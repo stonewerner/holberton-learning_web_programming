@@ -1,9 +1,14 @@
+var value = prompt();
 function double(value) {
   x = value*2;
   return x;
 }
-x = function;
+
+value = double(value);
+console.log(value);
+
 
 function hey(){
   console.log("hello world");
 }
+hey();
