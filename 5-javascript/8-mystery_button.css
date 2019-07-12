@@ -1,0 +1,23 @@
+button {
+min-height:200px;
+min-width: 300px;
+background-color: red;
+font-size: 20pt;
+cursor: pointer;
+box-shadow: 0 9px #999;
+
+}
+
+button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 9px #999;
+}
+
+button:active{
+  transform: translateY(5px);
+  box-shadow: 0 4px #666;
+}
+
+h1{
+  color: blue;
+}
