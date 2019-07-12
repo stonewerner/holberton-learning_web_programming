@@ -3,3 +3,7 @@ function double(value) {
   return x;
 }
 x = function;
+
+function hey(){
+  console.log("hello world");
+}
