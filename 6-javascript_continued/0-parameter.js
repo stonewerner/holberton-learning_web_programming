@@ -1,6 +1,6 @@
 //JAVASCRIPT
-let my_parameter = process.argv[2];
-console.log("Here is the first passed parameter:" + my_parameter);
+var my_parameter = process.argv[2];
+console.log("Here is the first passed parameter: " + my_parameter);
 
 
 //## Run `sudo apt-get install -y nodejs` to install Node.js 12.x and npm
