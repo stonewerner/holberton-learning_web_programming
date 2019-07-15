@@ -18,7 +18,12 @@ else if (x>= 75){
 else if (x>= 70){
   console.log("You received a C");
 }
-else if (x<= 65){
+else if (x>= 65){
+  console.log("You received a D+");
+}
+else if (x>= 60){
   console.log("You received a D");
 }
-//NOT HOW A REAL GRADING SYSTEM WORKS: WHAT IF YOU GET A 69???????
+else{
+  console.log("You received an F");
+}
